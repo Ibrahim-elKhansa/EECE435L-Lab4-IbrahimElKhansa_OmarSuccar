@@ -40,13 +40,6 @@ PYQT: Omar Succar 202101374 oms21@mail.aub.edu
 
 ## Getting Started
 
-### Prerequisites
-Ensure you have the following installed:
-
-- Node.js with a version >=14.x
-- MongoDB with a version>=4.x
-- npm (Node Package Manager) or yarn
-
 ### Installation
 
 1. **Clone the repository:**
@@ -58,7 +51,6 @@ Ensure you have the following installed:
 3. **Run the Project:**
 ```python3 main_tkinter.py``` or
 ```python3 main_pyqt.py```
-if there is no db, then the db will automatically be created.
 
 ## Database Setup
 
