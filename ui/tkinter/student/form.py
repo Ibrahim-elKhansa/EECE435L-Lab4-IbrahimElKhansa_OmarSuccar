@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from sql.db_operations import insert_student
-from ui.student.validation import validate_email, is_unique_student_id
+from ui.tkinter.student.validation import validate_email, is_unique_student_id
 from models.Student import Student
 
 def create_student_form(tab):

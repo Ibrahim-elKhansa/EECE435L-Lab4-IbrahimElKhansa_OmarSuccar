@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from sql.db_operations import get_all_students, get_all_instructors, get_all_courses, delete_student, delete_instructor, delete_course
-from ui.list.edit_student_dialog import open_edit_student_dialog
-from ui.list.edit_instructor_dialog import open_edit_instructor_dialog
-from ui.list.edit_course_dialog import open_edit_course_dialog
+from ui.tkinter.list.edit_student_dialog import open_edit_student_dialog
+from ui.tkinter.list.edit_instructor_dialog import open_edit_instructor_dialog
+from ui.tkinter.list.edit_course_dialog import open_edit_course_dialog
 
 def create_view_records_form(tab):
     """

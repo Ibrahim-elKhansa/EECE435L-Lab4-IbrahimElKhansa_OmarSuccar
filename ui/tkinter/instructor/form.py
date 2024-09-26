@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 from sql.db_operations import insert_instructor
-from ui.student.validation import validate_email
-from ui.instructor.validation import is_unique_instructor_id
+from ui.tkinter.student.validation import validate_email
+from ui.tkinter.instructor.validation import is_unique_instructor_id
 from models.Instructor import Instructor
 
 def create_instructor_form(tab):

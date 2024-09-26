@@ -2,11 +2,11 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import csv
 from sql.db_operations import get_all_students, get_all_instructors, get_all_courses, get_students_by_course
-from ui.student.form import create_student_form
-from ui.instructor.form import create_instructor_form
-from ui.course.form import create_course_form
-from ui.registration.form import create_registration_form
-from ui.list.form import create_view_records_form
+from ui.tkinter.student.form import create_student_form
+from ui.tkinter.instructor.form import create_instructor_form
+from ui.tkinter.course.form import create_course_form
+from ui.tkinter.registration.form import create_registration_form
+from ui.tkinter.list.form import create_view_records_form
 
 def main():
     """

@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 from sql.db_operations import insert_course, get_all_instructors
-from ui.course.validation import is_unique_course_name
+from ui.tkinter.course.validation import is_unique_course_name
 from models.Course import Course
 
 def create_course_form(tab):
