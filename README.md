@@ -1,8 +1,3 @@
-TKINTER: Ibrahim El Khansa 202151253 ike06@mail.aub.edu
-
-PYQT: Omar Succar 202101374 oms21@mail.aub.edu
-
-
 # School Management System
 
 A GUI-based application built using Python and Tkinter to manage school records including students, instructors, and courses. The system supports adding, editing, searching, and deleting records from the database. The application uses SQLite as the database engine and Tkinter for the user interface.
@@ -10,6 +5,7 @@ A GUI-based application built using Python and Tkinter to manage school records 
 ## Authors:
 
 TKINTER: Ibrahim El Khansa 202151253 ike06@mail.aub.edu
+
 PYQT: Omar Succar 202101374 oms21@mail.aub.edu
 
 ## Features:
